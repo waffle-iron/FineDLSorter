@@ -1,0 +1,15 @@
+{
+  "directory": "",
+  "delay": 10,
+  "others_name": "Other",
+  "sorting": {
+    "Archives": [".zip", ".rar", ".gz", ".7z"],
+    "Audio": [".mp3"],
+    "Executables": [".exe"],
+    "Installer_Packages": [".msi"],
+    "Pictures": [".jpg", ".png"],
+    "Videos": [".mp4"]
+  },
+  "ignore": ["desktop.ini", "*.opdownload", "*.tmp"],
+  "debug": true
+}
