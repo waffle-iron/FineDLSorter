@@ -1,12 +1,12 @@
 {
   "name": "finedlsorter",
   "version": "0.0.1-A",
-  "description": "A small node js program to sort your download folder based on a JSON file.",
+  "description": "A small Node JS program to sort your download folder based on a JSON file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "BrandonCravener",
   "license": "MIT",
   "dependencies": {
     "chokidar": "^1.6.1",
@@ -17,5 +17,9 @@
     "eslint": "^3.15.0",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BrandonCravener/Fine-Download-Folder-Sorter.git"
   }
 }
