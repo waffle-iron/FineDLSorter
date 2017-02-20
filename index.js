@@ -1,7 +1,6 @@
-"use strict";
 // Requires
 const config = require('config-node')({
-  dir: 'config',
+  dir: `${__dirname}/config`,
   ext: 'json',
   env: 'production',
 });
