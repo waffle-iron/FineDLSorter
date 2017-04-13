@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/default.css" />
+    <title>Download Sorter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="blue-grey lighten-4">
+    <nav class="blue-grey">
+        <div class="nav-wrapper">
+            <a class="move-window" href="#"><i class="material-icons">open_with</i></a>
+            <a class="brand-logo center">Download Sorter</a>
+            <a id="button__minimize-window" class="right" href="#"><i class="material-icons">close</i></a>
+        </div>
+    </nav>
+    <main>
+        <div id="page__home">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card-panel z-depth-3">
+                        <h4>Status</h4>
+                        <p>
+                            <div class="row">
+                                <h5>Sorting: <span id="text__sorting-status"></span></h5>
+                            </div>
+                            <div class="row">
+                                <h5>Directory: </h5>
+                                <h6 class="text__sorting-directory"></h6>
+                            </div>
+                            <div class="row">
+                                <h5>Number of Categorys: <span id="text__sorting-categorys"></span></h5>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card-panel z-depth-3">
+                        <h4>Settings</h4>
+                        <p>
+                            <div class="row">
+                                <h5>Sorting</h5>
+                                <div class="switch">
+                                    <label>
+                                        Disabled
+                                        <input id="switch__sorting-enable" type="checkbox">
+                                        <span class="lever"></span>
+                                        Enabled
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h5>Directory</h5>
+                                <a id="button__select-download-dir" class="waves-effect waves-light btn blue-grey darken-4">
+                                    <i class="material-icons">folder</i>
+                                </a>
+                                <h6 class="text__sorting-directory"></h6>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card-panel z-depth-3">
+                        <h4>Ignored Files</h4>
+                        <p>
+                            <div class="row">
+                                <h5>Ignored Files: <span id="num__ignored-files"></span></h5>
+                            </div>
+                            <div class="row">
+                                <a class="waves-effect waves-teal btn-flat" id="button__go-to-ignored">Manage</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page__ignored">
+            <div class="blue-grey lighten-1 ignored--other-navigation">
+                <a class="ignored--back-button-a button__back" href="#">
+                    <i class="material-icons ignored--back-button-icon">arrow_back</i></a>
+                <h4 class="ignored--other-navigation-title">Ignored Files</h4>
+            </div>
+            <div>
+                <a id="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
+                <a id="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
+            </div>
+        </div>
+        <a id="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
+        <a id="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
+    </main>
+
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        if (window.module) module = window.module;
+    </script>
+</body>
+
+</html>

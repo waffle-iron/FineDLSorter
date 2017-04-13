@@ -1,0 +1,55 @@
+.move-window {
+    cursor: move;
+    font-size: 40px;
+    padding-left: 10px;
+    position: absolute;
+    -webkit-app-region: drag;
+}
+
+#button__minimize-window {
+    padding-right: 10px;
+}
+
+.three-six-px {
+    font-size: 36px;
+}
+
+#button__maximize-window,
+#button__restore-window {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+
+#button__restore-window {
+    display: none;
+}
+
+.ignored--other-navigation {
+    height: 50px;
+}
+
+.ignored--back-button-a {
+    height: 50px;
+    position: absolute;
+    width: 45px;
+    z-index: 5;
+}
+
+.ignored--back-button-icon {
+    font-size: 40px;
+    padding-top: 5px;
+    color: white;
+}
+
+.ignored--other-navigation-title {
+    position: absolute;
+    top: 52px;
+    text-align: center;
+    width: 100%;
+    color: lightcyan;
+}
+
+#page__ignored {
+    display: none;
+}

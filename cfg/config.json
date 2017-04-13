@@ -1,0 +1,15 @@
+{
+    "enableSorting": true,
+    "failedRetryTime": 10,
+    "sortingConfig": {
+        "Archives": [".zip", ".rar", ".gz", ".7z"],
+        "Audio": [".mp3"],
+        "Executables": [".exe"],
+        "Installer_Packages": [".msi"],
+        "Pictures": [".jpg", ".png"],
+        "Videos": [".mp4"],
+        "others_name": "Misc"
+    },
+    "sortingDirectory": "C:/Users/Default.DESKTOP-6BHK7UV/Downloads",
+    "ignoredFiles": ["desktop.ini", "*.opdownload", "*.tmp", "*.*download"]
+}
