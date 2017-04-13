@@ -1,4 +1,4 @@
-# FineDLSorter [![Build Status](https://secure.travis-ci.org/Default/FineDLSorter.png?branch=master)](http://travis-ci.org/Default/FineDLSorter)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BrandonCravener/FineDLSorter/master/LICENSE-MIT)
+# FineDLSorter [![Build Status](https://travis-ci.org/BrandonCravener/FineDLSorter.svg?branch=master)](https://travis-ci.org/BrandonCravener/FineDLSorter)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BrandonCravener/FineDLSorter/master/LICENSE-MIT)
 
 A cross platform Electron app to sort your specified download folder.
 
