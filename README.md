@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FineDLSorter [![Build Status](https://secure.travis-ci.org/Default/FineDLSorter.png?branch=master)](http://travis-ci.org/Default/FineDLSorter)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BrandonCravener/FineDLSorter/master/LICENSE-MIT)
 
 A cross platform Electron app to sort your specified download folder.
@@ -22,3 +23,7 @@ _(Coming soon)_
 ## License
 Copyright (c) 2017 BrandonCravener  
 Licensed under the MIT license.
+=======
+# FineDLSorter
+A small [Node JS](https://nodejs.org/) program to sort your download folder based on a JSON file.
+>>>>>>> origin/master
