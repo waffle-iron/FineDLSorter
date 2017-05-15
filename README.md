@@ -17,7 +17,7 @@ _(Coming soon)_
 ## Release History
 | Name  | Version | Type |
 | ----- | ------- | ---- |
-| First Release | [V0.0.1-A](https://github.com/BrandonCravener/FineDLSorter/releases/tag/V0.0.1-A) | Pre-release|
+| First Release | [V0.0.1-A](https://github.com/BrandonCravener/FineDLSorter/releases/tag/V0.0.1-A) | Pre-release |
 
 ## License
 Copyright (c) 2017 BrandonCravener  
