@@ -14,14 +14,14 @@
     font-size: 36px;
 }
 
-#button__maximize-window,
-#button__restore-window {
+.button__maximize-window,
+.button__restore-window {
     position: fixed;
     bottom: 10px;
     right: 15px;
 }
 
-#button__restore-window {
+.button__restore-window {
     display: none;
 }
 
@@ -50,6 +50,20 @@
     color: lightcyan;
 }
 
-#page__ignored {
+#page__ignored,
+#page__configurations {
     display: none;
+}
+
+#button__go-to-ignored,
+#button__go-to-categories {
+    width: 100%;
+}
+
+.item__ignored-file {
+    cursor: pointer;
+}
+
+.item__ignored-file:hover {
+    background-color: rgba(255, 53, 53, 0.5);
 }

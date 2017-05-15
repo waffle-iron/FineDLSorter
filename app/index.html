@@ -28,7 +28,7 @@
                                 <h5>Sorting: <span id="text__sorting-status"></span></h5>
                             </div>
                             <div class="row">
-                                <h5>Directory: </h5>
+                                <h5>Directory </h5>
                                 <h6 class="text__sorting-directory"></h6>
                             </div>
                             <div class="row">
@@ -53,11 +53,24 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <h5>Other Folder</h5>
+                                <div class="switch">
+                                    <label>
+                                        Disabled
+                                        <input id="switch__other-enable" type="checkbox">
+                                        <span class="lever"></span>
+                                        Enabled
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <h5>Directory</h5>
                                 <a id="button__select-download-dir" class="waves-effect waves-light btn blue-grey darken-4">
                                     <i class="material-icons">folder</i>
                                 </a>
-                                <h6 class="text__sorting-directory"></h6>
+                            </div>
+                            <div class="row hoverable center-align">
+                                <a class="waves-effect waves-teal btn-flat" id="button__go-to-categories">Manage Categories</a>
                             </div>
                         </p>
                     </div>
@@ -67,10 +80,10 @@
                         <h4>Ignored Files</h4>
                         <p>
                             <div class="row">
-                                <h5>Ignored Files: <span id="num__ignored-files"></span></h5>
+                                <h5>Rules: <span id="num__ignored-files"></span></h5>
                             </div>
-                            <div class="row">
-                                <a class="waves-effect waves-teal btn-flat" id="button__go-to-ignored">Manage</a>
+                            <div class="row hoverable">
+                                <a class="waves-effect waves-teal btn-flat center-align" id="button__go-to-ignored">Manage Ignored</a>
                             </div>
                         </p>
                     </div>
@@ -83,13 +96,67 @@
                     <i class="material-icons ignored--back-button-icon">arrow_back</i></a>
                 <h4 class="ignored--other-navigation-title">Ignored Files</h4>
             </div>
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rules</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table__sorting-configurations">
+                    </tbody>
+                </table>
+                <div class="row valign-wrapper">
+                    <div class="input-field inline col s10">
+                        <input id="text__new-ignored-rule" type="text" class="validate">
+                        <label for="text__new-ignored-rule">New Rule</label>
+                    </div>
+                    <a id="button__add-new-ignored-rule" class="waves-effect waves-teal btn-flat col s2 center-align">Add Rule</a>
+                </div>
+            </div>
             <div>
-                <a id="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
-                <a id="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
+                <a class="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
+                <a class="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
             </div>
         </div>
-        <a id="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
-        <a id="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
+        <div id="page__configurations">
+            <div class="blue-grey lighten-1 ignored--other-navigation">
+                <a class="ignored--back-button-a button__back-categories" href="#">
+                    <i class="material-icons ignored--back-button-icon">arrow_back</i></a>
+                <h4 class="ignored--other-navigation-title">Sorting Categories</h4>
+            </div>
+            <table class="highlight">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Exstensions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Images</td>
+                        <td>
+                            <div class="chip">
+                                .png
+                                <i class="close material-icons">close</i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Executeables</td>
+                        <td>
+                            <div class="chip">
+                                .exe
+                                <i class="close material-icons">close</i>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a class="button__maximize-window" href="#"><i class="material-icons three-six-px">fullscreen</i></a>
+        <a class="button__restore-window" href="#"><i class="material-icons three-six-px">fullscreen_exit</i></a>
     </main>
 
     <script>
@@ -98,7 +165,7 @@
             module = undefined;
         }
     </script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script>

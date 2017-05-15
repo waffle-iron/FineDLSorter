@@ -1,6 +1,6 @@
 'use strict';
 
-var sorterLocation = require('../lib/sorter/location.js');
+var sorter = require('../lib/sorter.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -26,12 +26,13 @@ exports['getNewLocation'] = {
         done();
     },
     function(test) {
+        test.expect(true);
         test.equal(
-            sorterLocation.getNewLocation(
+            sorter.getNewLocation(
                 '/home/example.file', {
                     Files: ['.file']
                 }
-            ), '/home/Files/example.file', 'The sorter is sorting files incorrectly!');
+            ), '/home/File/example.file', 'The sorter is sorting files incorrectly!');
         test.done();
     },
 };

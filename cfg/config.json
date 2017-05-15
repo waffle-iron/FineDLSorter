@@ -1,15 +1,46 @@
 {
     "enableSorting": true,
     "failedRetryTime": 10,
+    "otherEnabled": true,
     "sortingConfig": {
-        "Archives": [".zip", ".rar", ".gz", ".7z"],
-        "Audio": [".mp3"],
-        "Executables": [".exe"],
-        "Installer_Packages": [".msi"],
-        "Pictures": [".jpg", ".png"],
-        "Videos": [".mp4"],
+        "Archives": [
+            ".zip",
+            ".rar",
+            ".gz",
+            ".7z",
+            ".tar",
+            ".iso",
+            ".bz2",
+            ".gz",
+            ".dmg"
+        ],
+        "Audio": [
+            ".mp3",
+            ".wav",
+            ".3gp",
+            ".m4a",
+            ".ogg"
+        ],
+        "Executables": [
+            ".exe"
+        ],
+        "Installer_Packages": [
+            ".msi"
+        ],
+        "Pictures": [
+            ".jpg",
+            ".png",
+            ".svg"
+        ],
+        "Videos": [
+            ".mp4"
+        ],
         "others_name": "Misc"
     },
-    "sortingDirectory": "C:/Users/Default.DESKTOP-6BHK7UV/Downloads",
-    "ignoredFiles": ["desktop.ini", "*.opdownload", "*.tmp", "*.*download"]
+    "sortingDirectory": "C:\\Users\\Default.DESKTOP-6BHK7UV\\downloads",
+    "ignoredFiles": [
+        "*.tmp",
+        "*.*download",
+        "desktop.ini"
+    ]
 }
