@@ -23,9 +23,6 @@
     "engines": {
         "node": "7.8.0"
     },
-    "scripts": {
-        "test": "grunt nodeunit"
-    },
     "devDependencies": {
         "electron": "^1.6.2",
         "grunt": "~0.4.5",
