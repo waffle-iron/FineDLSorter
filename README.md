@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/BrandonCravener/FineDLSorter.png?label=ready&title=Ready)](https://waffle.io/BrandonCravener/FineDLSorter?utm_source=badge)
 # FineDLSorter [![Build Status](https://secure.travis-ci.org/Default/FineDLSorter.png?branch=master)](http://travis-ci.org/Default/FineDLSorter)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BrandonCravener/FineDLSorter/master/LICENSE-MIT)
 
 A cross platform Electron app to sort your specified download folder.
